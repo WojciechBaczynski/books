@@ -1,0 +1,142 @@
+$dark: #AAA;
+$light: #EEE;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $light;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+
+    aside {
+        width: 10%;
+        white-space: nowrap;
+        margin-left: 25px;
+    }
+
+    main {
+        width: 80%;
+        flex-wrap: wrap;
+        padding-left: 20px;
+    }
+    .something {
+        width: 10%;
+    }
+
+}
+
+h1 {
+    margin: 15px 15px 25px 15px;
+}
+
+.sort {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.info {
+    list-style-type: none;
+}
+
+.author {
+    font-size: 14px;
+}
+
+.amountPageInput {
+    width: 25%;
+    height: 30px;
+    margin: 0 5px 0px 5px;
+    border: none;
+}
+
+.dotted {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.wrapper {
+    font-size: 25px;
+    .logo {
+        display: inline-block;
+        position: relative;
+        height: 40px;
+        width: 40px;
+        white-space: nowrap;
+        background-color: #FAD84A;
+        text-align: right;
+    }
+    .logo .content {
+        position: absolute;
+        bottom: -4px;
+        right: 0px;
+    }
+}
+
+.btnDiv {
+    text-align: center;
+}
+
+.styledButton {
+    border: none;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: $dark;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+img {
+    height: 200px;
+    width: 45%;
+}
+
+main {
+    display: flex;
+    div {
+        display: flex;
+    }
+    .img {
+        display: inline;
+    }
+}
+
+.item {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 20px 50px 5px;
+    width: 30%;
+    height: 320px;
+    display: inline;
+
+}
+
+.info {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dashed #ff0000;
+}
+
+.number {
+    color: $dark;
+    font-size: 40px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
